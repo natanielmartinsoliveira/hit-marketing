@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { MenuComponent } from './menu/menu.component';
+import { ContentBlockComponent } from './content-block/content-block.component';
+import { TituloBlockComponent } from './titulo-block/titulo-block.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent,
+    ContentBlockComponent,
+    TituloBlockComponent
   ],
   imports: [
     BrowserModule,

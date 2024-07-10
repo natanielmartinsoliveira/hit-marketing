@@ -1,1 +1,20 @@
-<p>contact works!</p>
+<app-titulo-block>Contato</app-titulo-block>
+<app-content-block>
+  <div class="contact-form">
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+
+          <input type="text" id="name" name="name" class="form-control no-border input-field" placeholder="Nome*" required>
+        </div>
+        <div class="col-md-6">
+          <input type="email" id="email" name="email" class="form-control no-border input-field" placeholder="Email*" required>
+        </div>
+      </div>
+      <div class="mb-3">
+        <textarea id="message" name="message" class="form-control no-border text-field" rows="8" placeholder="Mensagem*" required></textarea>
+      </div>
+      <button type="submit" class="bt-enviar">Enviar</button>
+    </form>
+  </div>
+</app-content-block>
